@@ -9,7 +9,7 @@
 
 .hero {
   background-color: var(--primary-color);
-  padding: 276px 20px;
+  padding: 250px 20px;
 }
 
 h1,
@@ -44,7 +44,7 @@ h3 {
   text-align: center;
 }
 
-.get-started {
+.get-started a {
   background-color: var(--secondary-color);
   color: #fff;
   box-shadow: var(--box-shadow);
@@ -55,6 +55,12 @@ h3 {
   font-size: 18px;
   line-height: 27px;
 }
+
+.get-started {
+  display: flex;
+  justify-content: center;
+}
+
 .get-started:hover {
   color: #fff;
 }
