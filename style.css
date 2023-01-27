@@ -1,5 +1,10 @@
 :root {
   --branding-color: #6c63ff;
+  --branding-background: linear-gradient(
+    109.6deg,
+    rgb(245, 239, 249) 30.1%,
+    rgb(207, 211, 236) 100.2%
+  );
   --main-font-family: "Helvetica Neue";
   --header-font-family: "Raleway";
   --main-font-color: #000;
@@ -7,11 +12,7 @@
 }
 
 .hero {
-  background: linear-gradient(
-    109.6deg,
-    rgb(245, 239, 249) 30.1%,
-    rgb(207, 211, 236) 100.2%
-  );
+  background: var(--branding-background);
   padding: 250px 20px;
 }
 
