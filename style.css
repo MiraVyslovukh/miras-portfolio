@@ -45,10 +45,6 @@ a {
   font-family: var(--main-font-family);
 }
 
-.text-center {
-  text-align: center;
-}
-
 .get-started a {
   border-color: var(--secondary-color);
   font-family: var(--main-font-family);
