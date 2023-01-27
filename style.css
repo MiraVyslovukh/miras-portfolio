@@ -1,6 +1,5 @@
 :root {
-  --primary-color: #f9f7fe;
-  --secondary-color: #6c63ff;
+  --branding-color: #6c63ff;
   --main-font-family: "Helvetica Neue";
   --header-font-family: "Raleway";
   --main-font-color: #000;
@@ -46,7 +45,7 @@ a {
 }
 
 .get-started a {
-  border-color: var(--secondary-color);
+  border-color: var(--branding-color);
   font-family: var(--main-font-family);
   font-weight: 300;
   border-radius: 22px;
