@@ -32,19 +32,20 @@ p {
   font-family: var(--main-font-family);
 }
 
-.hero h2 {
+.hero h2,
+.hero h3 {
   font-size: 36px;
   font-family: var(--header-font-family);
   line-height: 54px;
   font-weight: 200;
 }
 
-.hero h3 {
+/* .hero h3 {
   font-size: 30px;
   line-height: 36px;
   font-weight: 300;
   font-family: var(--header-font-family);
-}
+} */
 
 .get-started a,
 .launch-btn a {
@@ -100,7 +101,7 @@ p {
 
 @media (max-width: 600px) {
   .project {
-    padding: 40px 10px;
+    padding: 40px 40px;
   }
 
   .project-heading,
