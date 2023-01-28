@@ -98,28 +98,9 @@ p {
   max-width: 1700px;
 }
 
-@media (max-width: 375px) {
-  .hero h1 {
-    font-size: 50px;
-  }
-
-  .project-heading {
-    font-size: 40px;
-    line-height: 50px;
-  }
-
-  .hero h1 {
-    font-size: 28px;
-  }
-
-  .hero h3 {
-    font-size: 25px;
-  }
-}
-
 @media (max-width: 600px) {
   .project {
-    padding: 40px 20px;
+    padding: 40px 10px;
   }
 
   .project-heading,
@@ -128,13 +109,8 @@ p {
   }
 
   .project-heading {
-    font-size: 50px;
+    font-size: 40px;
     line-height: 50px;
-  }
-
-  .project-description,
-  .launch-btn a {
-    font-size: 20px;
   }
 
   .launch-btn {
@@ -143,12 +119,8 @@ p {
   }
 
   .hero h1 {
-    font-size: 50px;
+    font-size: 45px;
     line-height: 85px;
-  }
-
-  .get-started a {
-    font-size: 22px;
   }
 
   .featured-projects {
