@@ -93,6 +93,9 @@ p {
 }
 
 @media (max-width: 600px) {
+  .hero {
+    padding: 150px 20px 130px 20px;
+  }
   .project {
     padding: 40px 10px;
   }
