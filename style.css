@@ -5,21 +5,22 @@
     rgb(245, 239, 249) 30.1%,
     rgb(207, 211, 236) 100.2%
   );
-  --main-font-family: "Helvetica Neue";
-  --header-font-family: "Raleway";
+  --header-font-family: "Helvetica Neue";
+  --main-font-family: "Raleway";
   --main-font-color: #000;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .hero {
   background: var(--branding-background);
-  padding: 250px 20px;
+  padding: 250px 20px 150px 20px;
 }
 
 h1,
 h2,
 h3,
-a {
+a,
+p {
   color: var(--main-font-color);
   font-style: normal;
 }
@@ -28,12 +29,12 @@ a {
   font-size: 96px;
   line-height: 128px;
   font-weight: 900;
-  font-family: var(--header-font-family);
+  font-family: var(--main-font-family);
 }
 
 .hero h2 {
   font-size: 36px;
-  font-family: var(--main-font-family);
+  font-family: var(--header-font-family);
   line-height: 54px;
   font-weight: 200;
 }
@@ -42,12 +43,13 @@ a {
   font-size: 30px;
   line-height: 36px;
   font-weight: 300;
-  font-family: var(--main-font-family);
+  font-family: var(--header-font-family);
 }
 
-.get-started a {
+.get-started a,
+.launch-btn a {
   border-color: var(--branding-color);
-  font-family: var(--main-font-family);
+  font-family: var(--header-font-family);
   font-weight: 300;
   border-radius: 22px;
   text-transform: capitalize;
@@ -65,4 +67,33 @@ a {
 
 .get-started:hover {
   color: #fff;
+}
+
+p {
+  font-size: 18px;
+  line-height: 27px;
+  font-family: var(--main-font-family);
+  font-weight: 600;
+}
+
+.project-heading {
+  font-size: 64px;
+  font-weight: 900;
+  font-family: var(--main-font-family);
+  line-height: 85px;
+}
+
+.project {
+  padding: 120px 80px;
+}
+
+.project-description {
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--main-font-family);
+}
+
+.my-container {
+  max-width: 1700px;
 }
