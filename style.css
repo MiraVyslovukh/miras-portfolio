@@ -118,6 +118,10 @@ p {
 }
 
 @media (max-width: 600px) {
+  .project {
+    padding: 40px 20px;
+  }
+
   .project-heading,
   .project-description {
     text-align: center;
@@ -152,7 +156,7 @@ p {
   }
 }
 
-@media (max-width: 993px) {
+@media (max-width: 999px) {
   .project {
     padding: 40px 70px;
   }
