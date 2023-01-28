@@ -40,13 +40,6 @@ p {
   font-weight: 200;
 }
 
-/* .hero h3 {
-  font-size: 30px;
-  line-height: 36px;
-  font-weight: 300;
-  font-family: var(--header-font-family);
-} */
-
 .get-started a,
 .launch-btn a {
   border-color: var(--branding-color);
@@ -101,7 +94,7 @@ p {
 
 @media (max-width: 600px) {
   .project {
-    padding: 40px 40px;
+    padding: 40px 10px;
   }
 
   .project-heading,
@@ -123,7 +116,10 @@ p {
     font-size: 45px;
     line-height: 85px;
   }
-
+  .hero h2,
+  .hero h3 {
+    font-size: 30px;
+  }
   .featured-projects {
     font-size: 20px;
   }
