@@ -116,10 +116,6 @@
     padding: 40px 10px;
   }
 
-  .avatar {
-    margin: 0px;
-  }
-
   .project-heading,
   .project-description {
     text-align: center;
@@ -159,7 +155,11 @@
 }
 
 @media (max-width: 999px) {
-  .project {
+  .project-section-padding {
     padding: 40px 50px;
+  }
+
+  .avatar {
+    margin: 0px 100px;
   }
 }
