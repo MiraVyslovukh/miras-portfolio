@@ -11,18 +11,13 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+.my-container {
+  max-width: 1700px;
+}
+
 .hero {
   background: var(--branding-background);
   padding: 250px 20px 150px 20px;
-}
-
-h1,
-h2,
-h3,
-a,
-p {
-  color: var(--main-font-color);
-  font-style: normal;
 }
 
 .hero h1 {
@@ -38,6 +33,33 @@ p {
   font-family: var(--header-font-family);
   line-height: 54px;
   font-weight: 200;
+}
+
+.about-section h1 {
+  font-size: 86px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+}
+
+.get-started a:hover,
+.launch-btn a:hover {
+  color: var(--branding-color);
+}
+
+.featured-projects p {
+  font-size: 18px;
+  line-height: 27px;
+  font-family: var(--main-font-family);
+  font-weight: 600;
+}
+
+.project-heading {
+  font-size: 64px;
+  font-weight: 900;
+  font-family: var(--main-font-family);
+  line-height: 85px;
 }
 
 .get-started a,
@@ -59,49 +81,43 @@ p {
   justify-content: center;
 }
 
-.get-started:hover {
-  color: #fff;
-}
-
-.featured-projects p {
-  font-size: 18px;
-  line-height: 27px;
-  font-family: var(--main-font-family);
-  font-weight: 600;
-}
-
-.project-heading {
-  font-size: 64px;
-  font-weight: 900;
-  font-family: var(--main-font-family);
-  line-height: 85px;
-}
-
 .project-section-padding {
   padding: 120px 80px;
 }
 
 .about-section-padding {
-  padding: 120px 80px;
+  padding: 160px 95px;
 }
 
-.project-description {
+.project-description p,
+.about-section p {
   line-height: 30px;
   font-size: 16px;
   font-weight: 400;
   font-family: var(--main-font-family);
 }
 
-.my-container {
-  max-width: 1700px;
+.avatar {
+  margin: 200px 100px;
+  padding-top: 20px;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
 }
 
 @media (max-width: 600px) {
   .hero {
     padding: 150px 20px 130px 20px;
   }
-  .project {
+  .project-section-padding {
     padding: 40px 10px;
+  }
+
+  .about-section-padding {
+    padding: 40px 10px;
+  }
+
+  .avatar {
+    margin: 0px;
   }
 
   .project-heading,
@@ -114,21 +130,31 @@ p {
     line-height: 50px;
   }
 
-  .launch-btn {
-    display: flex;
-    justify-content: center;
+  .about-section h1 {
+    font-size: 64px;
   }
 
   .hero h1 {
     font-size: 45px;
     line-height: 85px;
   }
+
   .hero h2,
   .hero h3 {
     font-size: 30px;
   }
+
   .featured-projects {
     font-size: 20px;
+  }
+
+  .about-section {
+    text-align: center;
+  }
+
+  .launch-btn {
+    display: flex;
+    justify-content: center;
   }
 }
 
