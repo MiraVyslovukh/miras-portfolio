@@ -81,6 +81,10 @@ p {
   padding: 120px 80px;
 }
 
+.about-section-padding {
+  padding: 120px 80px;
+}
+
 .project-description {
   line-height: 30px;
   font-size: 16px;
