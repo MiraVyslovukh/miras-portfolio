@@ -95,7 +95,7 @@
   }
 
   .project-heading,
-  .project-description {
+  .description {
     text-align: center;
   }
 
@@ -113,8 +113,7 @@
     line-height: 85px;
   }
 
-  .hero h2,
-  .hero h3 {
+  .hero h2 {
     font-size: 30px;
   }
 
@@ -122,14 +121,14 @@
     text-align: center;
   }
 
-  .launch-btn {
+  .branded-btn {
     display: flex;
     justify-content: center;
   }
 }
 
 @media (max-width: 999px) {
-  .project-section-padding {
+  .сontent-section-padding {
     padding: 40px 50px;
   }
 
