@@ -84,6 +84,10 @@
   box-shadow: var(--box-shadow);
 }
 
+.img-padding {
+  padding: 15px 20px;
+}
+
 @media (max-width: 600px) {
   .hero {
     padding: 150px 20px 130px 20px;
@@ -127,10 +131,6 @@
   .branded-btn {
     display: flex;
     justify-content: center;
-  }
-
-  .img-padding {
-    padding: 15px 19px;
   }
 }
 
