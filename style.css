@@ -18,6 +18,7 @@
 .hero {
   background: var(--branding-background);
   padding: 250px 20px 150px 20px;
+  text-align: center;
 }
 
 .hero h1 {
@@ -38,8 +39,8 @@
   font-size: 86px;
 }
 
-.get-started a:hover,
-.launch-btn a:hover {
+.branded-btn a:hover,
+.branded-btna:hover {
   color: var(--branding-color);
 }
 
@@ -50,8 +51,7 @@
   line-height: 85px;
 }
 
-.get-started a,
-.launch-btn a {
+.branded-btn {
   border-color: var(--branding-color);
   font-family: var(--header-font-family);
   font-weight: 300;
@@ -64,10 +64,10 @@
   letter-spacing: 1px;
 }
 
-.get-started {
+/* .get-started {
   display: flex;
   justify-content: center;
-}
+} */
 
 .сontent-section-padding {
   padding: 160px 95px;
