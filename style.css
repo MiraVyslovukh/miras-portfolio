@@ -81,11 +81,7 @@
   justify-content: center;
 }
 
-.project-section-padding {
-  padding: 120px 80px;
-}
-
-.about-section-padding {
+.сontent-section-padding {
   padding: 160px 95px;
 }
 
@@ -108,12 +104,13 @@
   .hero {
     padding: 150px 20px 130px 20px;
   }
-  .project-section-padding {
+
+  .сontent-section-padding {
     padding: 40px 10px;
   }
 
-  .about-section-padding {
-    padding: 40px 10px;
+  .about-section {
+    padding: 0px;
   }
 
   .project-heading,
