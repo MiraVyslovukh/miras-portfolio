@@ -15,6 +15,25 @@
   max-width: 1700px;
 }
 
+nav {
+  padding: 20px 0;
+}
+
+.logo {
+  max-width: 150px;
+  max-height: 40px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+}
+
+nav ul {
+  padding: 0;
+}
+
 .hero {
   background: var(--branding-background);
   padding: 250px 20px 150px 20px;
