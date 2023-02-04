@@ -15,8 +15,17 @@
   max-width: 1700px;
 }
 
-nav {
+/* nav {
   padding: 20px 0;
+} */
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  margin: 20px 50px;
 }
 
 .logo {
@@ -39,10 +48,6 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: var(--branding-color);
-}
-
-nav ul {
-  padding: 0;
 }
 
 .hero {
