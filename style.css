@@ -165,6 +165,10 @@ nav ul {
     text-align: center;
   }
 
+  .work h1 {
+    font-size: 28px;
+  }
+
   .branded-btn {
     display: flex;
     justify-content: center;
