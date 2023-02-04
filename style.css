@@ -130,6 +130,14 @@ nav ul {
     padding: 40px 10px;
   }
 
+  .work {
+    padding: 0px;
+  }
+
+  .img-padding {
+    padding: 10px 0;
+  }
+
   .project-heading,
   .description {
     text-align: center;
