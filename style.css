@@ -130,13 +130,8 @@ nav li.active a {
     padding: 40px 10px;
   }
 
-  .work {
-    padding: 0px;
-  }
-
   .img-padding {
     padding: 0px;
-    margin-bottom: 5px;
   }
 
   .project-heading,
@@ -159,7 +154,8 @@ nav li.active a {
   }
 
   .hero h2 {
-    font-size: 28px;
+    font-size: 22px;
+    line-height: 34px;
   }
 
   .content {
