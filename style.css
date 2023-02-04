@@ -14,13 +14,15 @@
 .my-container {
   max-width: 1700px;
 }
+
 nav {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 999;
-  margin: 20px 50px;
+  padding: 20px 50px 5px 50px;
+  background: var(--branding-background);
 }
 
 .logo {
@@ -123,7 +125,7 @@ nav li.active a {
   }
 
   nav {
-    margin: 20px 30px;
+    padding: 10px 24px 0px 24px;
   }
 
   .сontent-section-padding {
