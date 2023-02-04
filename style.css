@@ -14,11 +14,6 @@
 .my-container {
   max-width: 1700px;
 }
-
-/* nav {
-  padding: 20px 0;
-} */
-
 nav {
   position: fixed;
   top: 0;
@@ -128,7 +123,7 @@ nav li.active a {
   }
 
   nav {
-    padding: 10px 0 0 0;
+    margin: 20px 30px;
   }
 
   .сontent-section-padding {
