@@ -136,6 +136,7 @@ nav ul {
 
   .img-padding {
     padding: 0px;
+    margin-bottom: 10px;
   }
 
   .project-heading,
@@ -167,6 +168,7 @@ nav ul {
 
   .work h1 {
     font-size: 28px;
+    margin-bottom: 20px;
   }
 
   .branded-btn {
