@@ -122,6 +122,10 @@ nav ul {
     padding: 150px 20px 130px 20px;
   }
 
+  nav {
+    padding: 10px 0;
+  }
+
   .сontent-section-padding {
     padding: 40px 10px;
   }
