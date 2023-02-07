@@ -6,9 +6,9 @@
     rgb(207, 211, 236) 100.2%
   );
   --secondary-branding-background: linear-gradient(
-    to top,
-    #e6e9f0 0%,
-    #eef1f5 100%
+    -20deg,
+    rgb(233, 222, 250) 0%,
+    rgb(251, 252, 219) 100%
   );
   --secondary-color: #f7f3ff;
   --header-font-family: "Helvetica Neue";
@@ -133,6 +133,11 @@ footer .contact-box {
 
 footer .contact-box h4 {
   font-size: 48px;
+  line-height: 55px;
+}
+
+footer .contact-box p {
+  padding: 0px 8px;
 }
 
 footer .email-link {
@@ -228,5 +233,9 @@ footer .socials i:hover {
 
   .content {
     text-align: center;
+  }
+
+  footer .contact-box {
+    padding: 30px 50px;
   }
 }
