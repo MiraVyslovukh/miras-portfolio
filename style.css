@@ -120,6 +120,16 @@ nav li.active a {
   padding: 15px 20px;
 }
 
+footer .contact-box {
+  background: var(--branding-background);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box h4 {
+  font-size: 48px;
+}
+
 footer .email-link {
   text-decoration: none;
   font-size: 24px;
