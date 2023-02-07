@@ -5,6 +5,11 @@
     rgb(245, 239, 249) 30.1%,
     rgb(207, 211, 236) 100.2%
   );
+  --secondary-branding-background: linear-gradient(
+    to top,
+    #e6e9f0 0%,
+    #eef1f5 100%
+  );
   --secondary-color: #f7f3ff;
   --header-font-family: "Helvetica Neue";
   --main-font-family: "Raleway";
@@ -121,7 +126,7 @@ nav li.active a {
 }
 
 footer .contact-box {
-  background: var(--branding-background);
+  background: var(--secondary-branding-background);
   padding: 30px 120px;
   border-radius: 10px;
 }
