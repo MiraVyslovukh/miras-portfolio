@@ -55,7 +55,7 @@ nav li.active a {
 
 .hero {
   background: var(--branding-background);
-  padding: 250px 20px 150px 20px;
+  padding: 200px 20px 150px 20px;
   text-align: center;
 }
 
