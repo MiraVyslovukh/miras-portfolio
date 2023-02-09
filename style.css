@@ -166,11 +166,13 @@ footer .socials i:hover {
   background-color: var(--branding-color);
 }
 
-footer p a {
+footer p a,
+.contacts a {
   color: var(--branding-color);
 }
 
-footer p a:hover {
+footer p a:hover,
+.contacts a:hover {
   color: var(--branding-color);
   font-weight: bolder;
 }
