@@ -111,11 +111,11 @@ nav li.active a {
 }
 
 .сontent-section-padding {
-  padding: 160px 95px 50px 95px;
+  padding: 170px 95px 50px 95px;
 }
 
 .avatar {
-  margin: 200px 100px;
+  margin: 200px 100px 100px 100px;
   padding-top: 20px;
   border-radius: 8px;
   box-shadow: var(--box-shadow);
