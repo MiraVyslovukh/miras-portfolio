@@ -175,12 +175,9 @@ footer .socials i:hover {
     padding: 10px 24px 0px 24px;
   }
 
-  .сontent-section-padding {
-    padding: 40px 10px;
-  }
-
   .img-padding {
     padding: 0px;
+    margin-bottom: 10px;
   }
 
   .project-heading,
@@ -199,7 +196,8 @@ footer .socials i:hover {
   }
 
   .content h1 {
-    font-size: 45px;
+    font-size: 28px;
+    margin-bottom: 5px;
   }
 
   .hero h2 {
@@ -211,11 +209,6 @@ footer .socials i:hover {
     text-align: center;
   }
 
-  .work h1 {
-    font-size: 28px;
-    margin-bottom: 5px;
-  }
-
   .branded-btn {
     display: flex;
     justify-content: center;
@@ -224,11 +217,18 @@ footer .socials i:hover {
 
 @media (max-width: 999px) {
   .сontent-section-padding {
-    padding: 40px 50px;
+    padding: 10px 40px;
+  }
+
+  .about,
+  .get-in-touch,
+  .work {
+    padding: 150px 50px 80px 50px;
   }
 
   .avatar {
-    margin: 0px;
+    margin: 0;
+    margin-bottom: 100px;
   }
 
   .content {
